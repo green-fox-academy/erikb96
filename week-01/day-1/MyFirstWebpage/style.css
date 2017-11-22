@@ -1,0 +1,36 @@
+@charset "utf-8";
+<head>
+<style type="text/css">
+
+div {
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+}
+
+h2 {
+    color: #ff0099;
+    margin-bottom: 1em;
+}
+
+nav  {
+    text-align: right;
+}
+
+a {
+    color: #ff0099
+}
+
+nav {
+    background-color: #333333;
+    height: 80px;
+    <font size="10">
+}
+</style>
+</head>

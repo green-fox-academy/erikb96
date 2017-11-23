@@ -1,36 +1,34 @@
 @charset "utf-8";
-<head>
-<style type="text/css">
-
-div {
-    padding-top: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
+a{
+    color: #ff0099
 }
-
-h1 {
-    color: black;
-    text-align: left;
+a:hover{
+    color:blue
 }
-
-h2 {
-    color: #ff0099;
-    margin-bottom: 1em;
+nav{
+    font-family: Courier New, Courier, monospace;
+    text-align: right
 }
-
-nav  {
-    text-align: right;
+header{
+    background-color: #333333;
+    height: 80px
 }
-
-a {
+article{
+    font-family: 'Spectral SC', serif;
+}
+article{
+    padding:10%;
+    border:10%;
+}
+h1{
+    font-size: 48px;
+    height:50px;
+}
+article p:first-line{
+    font-size: 32px;
+    height:50px;
     color: #ff0099
 }
 
-nav {
-    background-color: #333333;
-    height: 80px;
-    <font size="10">
-}
-</style>
-</head>
+    
+    

@@ -5,7 +5,7 @@ body{
     box-sizing:border-box;
 }
 article{
-    weight:352px;
+    width:352px;
     height:126px;
 }
 article:nth-child(1){

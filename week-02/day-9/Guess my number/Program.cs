@@ -13,10 +13,7 @@ namespace GreenFox
             Console.WriteLine("I've the number between 1-100. You have 5 lives.");
 
             again:
-
-            int yournumber = Convert.ToInt32(Console.ReadLine());
-            
-
+            int yournumber = Convert.ToInt32(Console.ReadLine());          
             if (yournumber != thoughtnumber)
             {
                 for (int i = lives++; i < lives; i++)
@@ -29,9 +26,6 @@ namespace GreenFox
                 Console.WriteLine("Game Over");
                 goto tryagain;
             }
-            
-
-
             if (yournumber == thoughtnumber)
             {
                 Console.WriteLine("Congratulations. You won!");
@@ -49,11 +43,8 @@ namespace GreenFox
                 Console.WriteLine("Too low. You have " + (5 - lives) + " lives left.");
                 goto again;
             }
-            
-            
             Console.ReadLine();
-
-           
+                      
         }
     }
 }

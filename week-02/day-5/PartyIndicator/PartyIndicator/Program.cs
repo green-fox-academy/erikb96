@@ -6,9 +6,9 @@ namespace GreenFox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Number of girls are coming to the party");
+            Console.WriteLine("Number of girls are coming to the party: ");
             int girls = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Number of boys are coming to the party");
+            Console.WriteLine("Number of boys are coming to the party: ");
             int boys = Convert.ToInt32(Console.ReadLine());
 
             {

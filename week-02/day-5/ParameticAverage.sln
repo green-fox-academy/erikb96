@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guess my number", "Guess my number\Guess my number.csproj", "{9251FCFF-D4AA-466D-87A8-132FE67FDB08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameticAverage", "ParameticAverage\ParameticAverage.csproj", "{F393881A-86BC-44BD-978A-BE4A4544B3F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9251FCFF-D4AA-466D-87A8-132FE67FDB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9251FCFF-D4AA-466D-87A8-132FE67FDB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9251FCFF-D4AA-466D-87A8-132FE67FDB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9251FCFF-D4AA-466D-87A8-132FE67FDB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F393881A-86BC-44BD-978A-BE4A4544B3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F393881A-86BC-44BD-978A-BE4A4544B3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F393881A-86BC-44BD-978A-BE4A4544B3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F393881A-86BC-44BD-978A-BE4A4544B3F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {89FDE46C-41BB-4774-9B94-862CC0C977CA}
+		SolutionGuid = {98C30CD3-EEB4-4326-90B5-EB21A58FBA82}
 	EndGlobalSection
 EndGlobal

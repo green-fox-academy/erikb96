@@ -7,16 +7,16 @@ namespace Example
         public static void Main(string[] args)
         {
             Console.WriteLine("Give me a number: ");
-            float divisor = int.Parse(Console.ReadLine());
+            int divisor = int.Parse(Console.ReadLine());
             
 
             try
             {
-                float result = 10 / divisor;
+                int result = 10 / divisor;
                 Console.WriteLine(result);
 
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 Console.WriteLine("false");
             }

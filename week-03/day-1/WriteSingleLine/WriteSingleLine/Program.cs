@@ -11,10 +11,10 @@ namespace WriteSingleLine
 
             try
             {
-                if(path == @"my-file.txt")
+                if (path == @"my-file.txt")
                 {
                     StreamWriter file = new StreamWriter(path);
-                file.WriteLine("Böködi Erik");
+                    file.WriteLine("Böködi Erik");
                     file.Close();
 
                 }
@@ -22,12 +22,8 @@ namespace WriteSingleLine
                 {
                     throw new Exception();
                 }
-                
-                
-                
-             
-
-            }
+                                
+            }            
             catch (Exception)
             {
                 Console.WriteLine("Unable to write file: my-file.txt");

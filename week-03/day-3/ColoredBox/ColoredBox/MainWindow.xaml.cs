@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using GreenFox;
 namespace ColoredBox
 {
     /// <summary>
@@ -23,6 +23,22 @@ namespace ColoredBox
         public MainWindow()
         {
             InitializeComponent();
+            var foxDraw = new FoxDraw(canvas);
+            DrawRectangle(foxDraw);
+        }
+        public static void DrawRectangle(FoxDraw foxDraw)
+        {
+            foxDraw.StrokeColor(Colors.Aquamarine);
+            foxDraw.DrawLine(10, 0, 100, 0);
+
+            foxDraw.StrokeColor(Colors.SeaGreen);
+            foxDraw.DrawLine(100, 0, 100, 100);
+
+            foxDraw.StrokeColor(Colors.Salmon);
+            foxDraw.DrawLine(100, 100, 10, 100);
+
+            foxDraw.StrokeColor(Colors.Navy);
+            foxDraw.DrawLine(10, 0, 10, 100);
         }
     }
 }
